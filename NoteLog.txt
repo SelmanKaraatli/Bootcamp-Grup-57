@@ -1,0 +1,16 @@
+NoteLog
+
+
+CodeLog
+ScriptBook
+DevDiary
+CodeJournal
+ByteBook
+SnippetNote
+CodeMemo
+DevNotes
+ProgramPad
+ScriptScribe
+CodeChronicle
+ByteDiary
+CodeLeaf
