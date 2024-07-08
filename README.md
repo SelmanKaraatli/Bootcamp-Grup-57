@@ -37,3 +37,10 @@ Flutter Grup 57
  
 **Daily Scrum**:
 - Daily Scrum'lar için Google Meet platformunun kullanılması kararlaştırılmış ve ortalama 1 saat sürmesi ön görülmüştür.
+
+**Sprint içinde tamamlanması tahmin edilen puan:**150
+
+**Puan tamamlama mantığı:**Proje boyunca tamamlanması gereken 500 puanlık bir backlog'a karar verilmiştir. İlk sprint için 150 puanlık bir ilerleme olması gerektiği ön görülmüştür.
+
+
+
