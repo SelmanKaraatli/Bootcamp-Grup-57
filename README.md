@@ -54,7 +54,7 @@ Flutter Grup 57
 
 **Sprint board screenshotları**
 - Sprint takip aracı olarak Trello kullanımına karar verilmiştir.
-![Screenshot_9](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/864f0183-4697-4597-8303-32ae31aec2a8)
+![trello](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/a19c3d61-37a2-4e13-bb29-6177c70e7653)
 
 
 **Ürün Durumu**: Ekran görüntüleri:
