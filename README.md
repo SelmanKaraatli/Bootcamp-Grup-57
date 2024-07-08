@@ -33,6 +33,7 @@ Flutter Grup 57
 - Ekip değişikliğinden ve sınav haftasından ötürü ekip zamanında toplanamadı.
 - Ekip içi Temmuz ayının 6’sında ve 7’sinde iki toplantı gerçekleştirildi.
 - Toplantılarda uygulama fikri ve kullanılacak materyaller belirlendi. 
-- Ekip içi görev dağılımları gerçekleştirildi. 
+- Ekip içi görev dağılımları gerçekleştirildi.
+ 
 **Daily Scrum**:
 - Daily Scrum'lar için Google Meet platformunun kullanılması kararlaştırılmış ve ortalama 1 saat sürmesi ön görülmüştür.
