@@ -28,10 +28,13 @@ Flutter Grup 57
 
 ## Hedef Kitle
 
+- Bilgi teknolojileri alanında çalışanlar 
+- Business iş birimleri
+- İş analistleri
+- Proje yöneticileri
 - Yazılım mimarları
-- Yazılım kalite kontrolcüleri
-- Yazılım mühendisleri
-- Amatör düzeyde bireysel/ekipsel yazılım ürünü ortaya koymak isteyen herkes
+- Yazılım test mühendisleri
+- Yazılım kalite kontrol mühendisleri
 
 # Sprint 1
 **Sprint Notları**:
@@ -47,6 +50,12 @@ Flutter Grup 57
 **Sprint içinde tamamlanması tahmin edilen puan**:150
 
 **Puan tamamlama mantığı**:Proje boyunca tamamlanması gereken 500 puanlık bir backlog'a karar verilmiştir. İlk sprint için 150 puanlık bir ilerleme olması gerektiği ön görülmüştür.
+
+
+**Sprint board screenshotları**
+- Sprint takip aracı olarak Trello kullanımına karar verilmiştir.
+![Screenshot_9](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/864f0183-4697-4597-8303-32ae31aec2a8)
+
 
 **Ürün Durumu**: Ekran görüntüleri:
 - ![design](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/7294abad-b62c-42b0-98d8-7015d2fe0aaa)
