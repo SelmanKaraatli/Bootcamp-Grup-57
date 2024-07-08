@@ -44,6 +44,8 @@ Flutter Grup 57
 **Puan tamamlama mantığı**:Proje boyunca tamamlanması gereken 500 puanlık bir backlog'a karar verilmiştir. İlk sprint için 150 puanlık bir ilerleme olması gerektiği ön görülmüştür.
 
 **Sprint Review**: 
+
+
 **Sprint Review Katılımcıları**: Emre Ataman, Yiğitcan Yıldız, Emir Selman Karaatlı
 
 
