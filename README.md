@@ -76,6 +76,17 @@ Köpek Dostu
 ![Screenshot_29](https://github.com/user-attachments/assets/cef23000-a5af-45b1-a2a6-090c97999753)
 
 **Ürün Durumu**: Ekran görüntüleri:
+![Screenshot_29](https://github.com/user-attachments/assets/49ef2662-3128-49cc-bf20-509206858c92)
+![Screenshot_31](https://github.com/user-attachments/assets/f999e92c-8b3f-42f4-91f1-1e550457370d)
+![Screenshot_33](https://github.com/user-attachments/assets/69057463-2310-4e89-9e6d-6358b225bd0e)
+![Screenshot_34](https://github.com/user-attachments/assets/98bcfccb-460e-44b2-8f9d-703c5f0dbfb3)
+![Screenshot_35](https://github.com/user-attachments/assets/7e929e34-26c8-4056-85b2-72f645b4ea35)
+
+**Sprint Review**: Takım dağıldığı için geri bildirim verilemedi. Ürünün son aşamasına geldiğimizde uygulamanın ilerleyen aşamalarında blog yazılarının içeriiklerinin çeşitlerinin artırılmasına karar verildi.
+
+**Sprint Review Katılımcıları**: Yiğitcan Yıldız
+
+**Sprint Retrospective**: Uygulamada yapay zeka destekleri olabilirdi. Genel olarak ilerlemeden memnun kalındı. Yenilikçi tasarımlarla uygulama daha fazla zengileşebilirdi.
 
 **Uygulamanın Kodları***
 
