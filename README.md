@@ -139,8 +139,7 @@ Yeni köpek sahipleri için temel bakım ipuçları: 1. Beslenme: Kaliteli mama 
     setState(() {
       blogContent = '''
 Köpeğinizin Sağlıklı Kalması İçin 10 İpucu
-Köpeğinizin sağlıklı ve mutlu bir yaşam sürmesi için dikkat etmeniz gereken önemli noktalar:
-Köpeğinizin sağlığı için bu basit ipuçlarına dikkat edin: 1. Dengeli Beslenme: Kaliteli mama seçin. 2. Taze Su: Her zaman temiz su sağlayın. 3. Egzersiz: Günlük yürüyüşler ve oyunlar yapın. 4. Aşılar: Gereken aşıları yaptırın. 5. Parazit Kontrolü: Düzenli parazit önlemleri alın. 6. Tüy Bakımı: Tüylerini tarayın. 7. Diş Bakımı: Dişlerini fırçalayın. 8. Tırnak Kesimi: Tırnaklarını kesin. 9. Veteriner Kontrolleri: Yılda bir sağlık kontrolü yaptırın. 10. Sevgi ve İlgi: Köpeğinize zaman ayırın.''';
+1. Dengeli Beslenme: Kaliteli mama seçin. 2. Taze Su: Her zaman temiz su sağlayın. 3. Egzersiz: Günlük yürüyüşler yapın. 4. Aşılar: Aşıları yaptırın. 5. Parazit Kontrolü: Düzenli parazit önlemleri alın. 6. Tüy Bakımı: Tüylerini tarayın. 7. Diş Bakımı: Dişlerini fırçalayın. 8. Tırnak Kesimi: Tırnaklarını kesin. 9. Veteriner Kontrolleri: Yılda bir sağlık kontrolü yaptırın. 10. Sevgi ve İlgi: Köpeğinize zaman ayırın.''';
     });
   }
 
@@ -148,15 +147,8 @@ Köpeğinizin sağlığı için bu basit ipuçlarına dikkat edin: 1. Dengeli Be
     setState(() {
       blogContent = '''
 Köpeklerde Davranış Problemleri ve Çözümleri
-Aşırı Havlama: Tetikleyicileri belirleyip olumlu pekiştirme kullanın. Eğitim ve egzersizle enerjisini atmasını sağlayın.
-
-Saldırganlık: Sebepleri belirleyip profesyonel eğitimle sosyalizasyon sağlayın.
-
-Ayrılık Kaygısı: Yalnız kalmaya alıştırın, oyuncaklar ve ödüllerle dikkatini dağıtın.
-
-Çiğneme ve Tahrip Etme: Çiğneme oyuncakları verin, uygun yönlendirme yapın.
-
-Tuvalet Eğitimi: Düzenli rutini ve ödüllendirmeyi kullanın, sabırlı ve tutarlı olun.
+Aşırı Havlama: Eğitim ve egzersizle enerjisini atmasını sağlayın. Saldırganlık: Sebepleri belirleyip profesyonel eğitim sağlayın. Ayrılık Kaygısı: Yalnız kalmaya alıştırın, oyuncaklarla dikkatini dağıtın.
+Çiğneme ve Tahrip Etme: Çiğneme oyuncakları verin. Tuvalet Eğitimi: Düzenli rutini ve ödüllendirmeyi kullanın.
 ''';
     });
   }
@@ -210,7 +202,9 @@ Köpeğiniz için evde sağlıklı mama hazırlamak kolaydır. Havuç ve Tavuk T
 }
 
 #Uygulamanın kodları
-[kod.docx](https://github.com/user-attachments/files/16462150/kod.docx)
+[kod.docx](https://github.com/user-attachments/files/16462540/kod.docx)
+
+
 
 
 
