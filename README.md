@@ -28,6 +28,7 @@ Köpek Dostu
 
 - Evde köpek besleyen kişiler
 - Köpekler hakkında bilgi öğrenmek isteyenler
+- Köpekleri sevenler
 # Sprint 1
 **Sprint Notları**:
 - Ekip değişikliğinden ve sınav haftasından ötürü ekip zamanında toplanamadı.
@@ -71,6 +72,10 @@ Köpek Dostu
 **Puan tamamlama mantığı**: Tüm projeye 3.sprintte başlandığı için 150 puanlık bir proje boyutu belirlendi. Bu sprintte projenin tamamı olan 150 puanın tamamlanması öngörüldü.
 
 **Sprint board screenshotları**
+- Sprint takip aracı olarak Trello kullanımına karar verilmiştir.
+![Screenshot_29](https://github.com/user-attachments/assets/cef23000-a5af-45b1-a2a6-090c97999753)
+
+**Ürün Durumu**: Ekran görüntüleri:
 
 **Uygulamanın Kodları***
 
