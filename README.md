@@ -9,8 +9,7 @@ Flutter Grup 57
 - Emre Ataman: Product Owner
 - Yiğitcan Yıldız: Scrum Master
 - Hatice Oğur: Developer
-- Hatice Genç: Developer
-- Emir Selman Karaatlı: Developer
+ - Emir Selman Karaatlı: Developer
 
 ## Ürün İsmi
 
