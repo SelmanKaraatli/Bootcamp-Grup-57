@@ -6,35 +6,28 @@ Flutter Grup 57
 
 ## Takım Elemanları
 
-- Emre Ataman: Product Owner
-- Yiğitcan Yıldız: Scrum Master
-- Hatice Oğur: Developer
- - Emir Selman Karaatlı: Developer
+
+- Yiğitcan Yıldız: Scrum Master, Product Owner
+
+
 
 ## Ürün İsmi
 
---NoteLog--
+Köpek Dostu
 
 ## Ürün Açıklaması
 
-- NoteLog uygulaması bilgi teknolojileri ve IT  sektöründe minör ve/veya major boyutta çalışma yapan ekip çalışanlarına yönelik hazırlanmış basit ve kullanışlı olması planlanan bir not uygulamasıdır. Özellikle ürünün dokümante edilmesi ve anlık olarak hazır şablonlarla not alınmasına ve bunun  aynı kullanıcı ile ve/veya kullanıcı paylaşımlı veya bağlantı linki ile ulaşılabilen platform bağımsız olarak çalışması ve görüntülenebilmesine sürecinde kolaylıklar sağlamayı hedefler. Ayrıca iletişim kanallarını da tek bir platformda toplayarak başka mecralardan kaynaklanacak vakit kaybını da en aza indirgemeyi hedeflemektedir. Sektörde mailleşme,mesajlaşma,bilgilerin geriye dönük aranmasından ziyade  ve gereksiz bilgi kirliliğinin önüne geçmek adına paylaşımlı not uygulaması ile verimliliği artırmayı planlamaktadır.
+- Köpek Dostu uygulaması köpek bakımı hakkında blog yazısı içermektedir.
 
 ## Ürün Özellikleri 
 
-- Yapay zeka kullanılarak önceki oluşturduğu şablonların özetlerini çıkarabilmesi,ve önceki dosyalardan hazır şablonlar hazırlayabilmesi adına da kullanıma elverişli olacağı düşünülmektedir. Not uygulamasının içeriğine yüklenecek video,resim boyutunda filtreme yapabilen ve bunu paylaşım noktasında da kolaylık sağlayabilecek olması kullanım avantajlarından görülmektedir.
-
+- Köpek Dostu uygulamasında köpek bakımı hakkında kullanıcılar öğrenmek istedikleri konu hakkında yazıların butonlarına tıklayarak köpek bakımı hakkında bilgi sahibi olabilecekler
 
 
 ## Hedef Kitle
 
-- Bilgi teknolojileri alanında çalışanlar 
-- Business iş birimleri
-- İş analistleri
-- Proje yöneticileri
-- Yazılım mimarları
-- Yazılım test mühendisleri
-- Yazılım kalite kontrol mühendisleri
-
+- Evde köpek besleyen kişiler
+- Köpekler hakkında bilgi öğrenmek isteyenler
 # Sprint 1
 **Sprint Notları**:
 - Ekip değişikliğinden ve sınav haftasından ötürü ekip zamanında toplanamadı.
@@ -57,16 +50,148 @@ Flutter Grup 57
 
 
 **Ürün Durumu**: Ekran görüntüleri:
-- ![design](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/7294abad-b62c-42b0-98d8-7015d2fe0aaa)
-- ![nl1](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/1a8e838b-5c9c-4f8b-8693-94b03183ca01)
-- ![nl2](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/ca1d2fc8-a1a4-47da-b1e2-1a5998634c0e)
-- ![nl3](https://github.com/SelmanKaraatli/Bootcamp-Grup-57/assets/65602267/44edf0a2-ad91-4314-a55e-aadf193eb194)
+
 
 **Sprint Review**: NoteLog'un arayüz ve veritabanı entegrasyonu gibi teknik hedeflerinin 2. sprinte aktarılmasına karar verilmiştir. Yapay zeka tarafında kullanılacak API'lar da yine 2. sprintin ana hedeflerinden birisi olarak belirlenmiştir. Dokümantasyon sürecinde yapılabilecek farklı çalışmalar da yine tartışılmak ve araştırılmak üzere 2. sprinte aktarılmıştır.
 **Sprint Review Katılımcıları**: Emre Ataman, Yiğitcan Yıldız, Emir Selman Karaatlı
 
 **Sprint Retrospective**: 1. sprintte elde edilen ilerlemeden genel anlamda memnun kalındı, fakat görüşme sıklığının artması gerektiğine karar verildi. Arayüz tarafında da yenilikçi bir tasarım noktasında hemfikir olundu. Kod tarafında developer'lara daha fazla destek olunması yönünde karar kılındı.
 
+# Sprint 3
+**Sprint Notları**:
+- Takımımız dağıldı, bu yüzden uygulama fikrimiz değişti, takımda yalnızca tek kişi kaldı.
+- Yiğitcan Yıldız dışında diğer arkadaşlarımızın projede bir katkısı bulunmamıştır.
+- Yeni uygulama fikri belirlendi ve kodlamaya geçildi.
+
+**Daily Scrum**:
+- Takımda tek kişi kaldığından iletişime gerek kalmadı.
+
+**Sprint içinde tamamlanması tahmin edilen puan**: 150 puan
+
+**Puan tamamlama mantığı**: Tüm projeye 3.sprintte başlandığı için 150 puanlık bir proje boyutu belirlendi. Bu sprintte projenin tamamı olan 150 puanın tamamlanması öngörüldü.
+
+**Sprint board screenshotları**
+
+**Uygulamanın Kodları***
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "Köpek Dostu",
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeScreen(),
+    );
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Köpek Dostu"),
+      ),
+      body: BlogScreen(),
+    );
+  }
+}
+
+class BlogScreen extends StatefulWidget {
+  @override
+  _BlogScreenState createState() => _BlogScreenState();
+}
+
+class _BlogScreenState extends State<BlogScreen> {
+  String blogContent = 'Kürklü Dostlarımızın Yanındayız';
+
+  void showMarchContent() {
+    setState(() {
+      blogContent = '''
+Yeni köpek sahipleri için temel bakım ipuçları: 1. Beslenme: Kaliteli mama ve taze su sağlayın. 2. Egzersiz: Günde iki kez yürüyüş yapın. 3. Temizlik: Köpeğinizi düzenli olarak yıkayın ve tüylerini tarayın. 4. Sağlık Kontrolleri: Düzenli veteriner ziyaretleri yapın. 5. Eğitim: Temel komutlar ve sosyalleşme için eğitim verin. Bu adımlar, köpeğinizin sağlıklı ve mutlu kalmasını sağlar.
+''';
+    });
+  }
+
+  void showAprilContent() {
+    setState(() {
+      blogContent = '''
+Köpeğinizin Sağlıklı Kalması İçin 10 İpucu
+Köpeğinizin sağlıklı ve mutlu bir yaşam sürmesi için dikkat etmeniz gereken önemli noktalar:
+Köpeğinizin sağlığı için bu basit ipuçlarına dikkat edin: 1. Dengeli Beslenme: Kaliteli mama seçin. 2. Taze Su: Her zaman temiz su sağlayın. 3. Egzersiz: Günlük yürüyüşler ve oyunlar yapın. 4. Aşılar: Gereken aşıları yaptırın. 5. Parazit Kontrolü: Düzenli parazit önlemleri alın. 6. Tüy Bakımı: Tüylerini tarayın. 7. Diş Bakımı: Dişlerini fırçalayın. 8. Tırnak Kesimi: Tırnaklarını kesin. 9. Veteriner Kontrolleri: Yılda bir sağlık kontrolü yaptırın. 10. Sevgi ve İlgi: Köpeğinize zaman ayırın.''';
+    });
+  }
+
+  void showMayContent() {
+    setState(() {
+      blogContent = '''
+Köpeklerde Davranış Problemleri ve Çözümleri
+Aşırı Havlama: Tetikleyicileri belirleyip olumlu pekiştirme kullanın. Eğitim ve egzersizle enerjisini atmasını sağlayın.
+
+Saldırganlık: Sebepleri belirleyip profesyonel eğitimle sosyalizasyon sağlayın.
+
+Ayrılık Kaygısı: Yalnız kalmaya alıştırın, oyuncaklar ve ödüllerle dikkatini dağıtın.
+
+Çiğneme ve Tahrip Etme: Çiğneme oyuncakları verin, uygun yönlendirme yapın.
+
+Tuvalet Eğitimi: Düzenli rutini ve ödüllendirmeyi kullanın, sabırlı ve tutarlı olun.
+''';
+    });
+  }
+
+  void showJuneContent() {
+    setState(() {
+      blogContent = '''
+Köpekler İçin Evde Hazırlanabilecek Sağlıklı Tarifler
+Köpeğiniz için evde sağlıklı mama hazırlamak kolaydır. Havuç ve Tavuk Topları: Haşlanmış tavuk göğsü ve rendelenmiş havuç karıştırın, küçük toplar yapın ve fırında pişirin. Yaban Mersini Buz Küpleri: Yaban mersinini ezip suyla karıştırın, buz kalıplarında dondurun. Bu basit tarifler köpeğinizin sağlığını destekler ve lezzetli bir ödül sunar.
+''';
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(16.0),
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              blogContent,
+              style: TextStyle(fontSize: 18.0),
+            ),
+            SizedBox(height: 20.0),
+            ElevatedButton(
+              onPressed: showMarchContent,
+              child: Text("Yeni Köpek Sahipleri İçin Temel Bakım Rehberi"),
+            ),
+            SizedBox(height: 10.0),
+            ElevatedButton(
+              onPressed: showAprilContent,
+              child: Text("Köpeğinizin Sağlıklı Kalması İçin 10 İpucu"),
+            ),
+            SizedBox(height: 10.0),
+            ElevatedButton(
+              onPressed: showMayContent,
+              child: Text("Köpeklerde Davranış Problemleri ve Çözümleri"),
+            ),
+            SizedBox(height: 10.0),
+            ElevatedButton(
+              onPressed: showJuneContent,
+              child: Text("Köpekler İçin Evde Hazırlanabilecek Sağlıklı Tarifler"),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
 
 
 
